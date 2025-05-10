@@ -1,0 +1,48 @@
+.menubar {
+    background-color: #8cc2f8; /* Light background color */
+    border: 1px solid #dee2e6; /* Border around the menu */
+    border-radius: 5px; /* Rounded corners */
+    width: 250px; /* Fixed width for the menu */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    font-family: Arial, sans-serif; /* Font style */
+  }
+  
+  .menuheader {
+    display: flex; /* Flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    padding: 10px; /* Padding around the header */
+    background-color: #268bf6; /* Header background color */
+    color: rgb(11, 11, 11); /* Text color */
+    font-size: 18px; /* Font size */
+  }
+  
+  .menuheader img {
+    margin-left: 10px; /* Space between text and image */
+    width:2px; /* Image width */
+    height:2px; /* Image height */
+  }
+  
+  .menulist {
+    padding: 10px; /* Padding around the list */
+  }
+  
+  .menulist ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+  }
+  
+  .menulist li {
+    display: flex; /* Flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    padding: 8px; /* Padding for list items */
+    border-bottom: 1px solid #024e99; /* Bottom border for separation */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth background transition */
+  }
+ 
+  .menulist li img {
+    margin-left: 10px; /* Space between text and image */
+    width: 16px; /* Image width */
+    height: 16px; /* Image height */
+  }
